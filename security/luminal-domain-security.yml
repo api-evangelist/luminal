@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of luminal.com
+hosts:
+- host: luminal.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 29 03:16:39 2026 GMT
+  hsts: true
+  hsts_max_age: 63072000
+domains:
+- domain: luminal.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine

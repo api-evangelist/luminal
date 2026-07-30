@@ -1,0 +1,21 @@
+# Luminal
+
+## Docs
+
+- [Compiling fast GPU kernels](https://docs.luminalai.com/blog/gpu.md): Bringing support for Nvidia and Apple GPUs to Luminal through compilers
+- [Luminal: Efficient ML in Rust through graph compilation](https://docs.luminalai.com/blog/intro.md): A new approach to ML
+- [Developing Luminal](https://docs.luminalai.com/developers/introduction.md): Building the future of ML.
+- [Compilers](https://docs.luminalai.com/docs/compilers.md): Core transformations of the computation graph.
+- [GraphTensor API](https://docs.luminalai.com/docs/graphtensor.md): The high-level interface for writing ML code, checked at compile time.
+- [Introduction](https://docs.luminalai.com/docs/introduction.md): Deep learning at the speed of light.
+- [Modules](https://docs.luminalai.com/docs/modules.md): Composable building blocks of complex neural networks.
+- [Quickstart](https://docs.luminalai.com/docs/quickstart.md): Start running ML models in minutes.
+- [Why Luminal](https://docs.luminalai.com/docs/why.md): ML is a crowded landscape. What makes Luminal different?
+
+## OpenAPI Specs
+
+- [openapi](https://docs.luminalai.com/api-reference/openapi.json)
+
+## Optional
+
+- [Community](https://discord.gg/VQf3j8WWNd)

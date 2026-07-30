@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: searched
+source: https://crates.io/crates/luminal
+packages:
+- language: rust
+  registry: crates.io
+  name: luminal
+  version: 0.2.0
+  url: https://crates.io/crates/luminal
+  install: cargo add luminal
+  description: Deep learning at the speed of light. Luminal is a high-performance,
+    general-purpose deep learning inference compiler written in Rust.
+  source_code: https://github.com/luminal-ai/luminal
+  official: true
