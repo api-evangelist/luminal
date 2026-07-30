@@ -1,7 +1,28 @@
 aid: luminal
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luminal.png
 name: Luminal
-description: Luminal is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Luminal is an AI inference-optimization company that compiles machine-learning
+  models ahead-of-time into optimized native code for GPUs and ASICs, aiming to
+  deliver the fastest, highest-throughput inference available. Its core product
+  is an open-source, high-performance general-purpose inference compiler written
+  in Rust (the "luminal" crate), built around static computation graphs, a
+  compile-time-checked GraphTensor API, composable neural-network modules, and
+  pluggable graph compilers. Luminal ships two deployment paths: Luminal Cloud, a
+  managed serverless inference service with automatic scaling, and licensed
+  on-prem deployment with dedicated support and custom optimization. The company
+  is backed by Felicis.
 url: https://raw.githubusercontent.com/api-evangelist/luminal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Inference
+- Compilers
+- GPU
+- Deep Learning
+- Rust
+- Developer Tools
+- Open Source
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,28 @@ maintainers:
 common:
 - type: Website
   url: https://luminal.com
+- type: Documentation
+  url: https://docs.luminalai.com
+- type: GettingStarted
+  url: https://docs.luminalai.com/docs/quickstart
+- type: APIReference
+  url: https://docs.luminalai.com/docs/graphtensor
+- type: Blog
+  url: https://blog.luminal.com
+- type: GitHubOrganization
+  url: https://github.com/luminal-ai
+- type: SourceCode
+  url: https://github.com/luminal-ai/luminal
+- type: Support
+  url: https://discord.gg/VQf3j8WWNd
+- type: Packages
+  url: packages/luminal-packages.yml
+- type: LLMsTxt
+  url: llms/luminal-llms.txt
+- type: DomainSecurity
+  url: security/luminal-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
