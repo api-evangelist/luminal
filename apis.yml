@@ -51,6 +51,13 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: IssueTracker
+  url: https://github.com/luminal-ai/luminal/issues
+- type: Releases
+  url: https://github.com/luminal-ai/luminal/releases
+- type: License
+  name: Apache-2.0
+  url: https://github.com/luminal-ai/luminal/blob/main/LICENSE
 - type: Website
   url: https://luminal.com
 - type: Documentation
