@@ -45,17 +45,21 @@ x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
+x-docs-platform: mintlify
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
+x-docs-hosting: vercel
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Inference
 - Compilers
 - GPU
 - Deep Learning
 - Rust
 - Developer Tools
-- Open-Source
+- Open Source
 tags_raw:
 - Company
 - Artificial Intelligence
@@ -67,6 +71,8 @@ tags_raw:
 - Rust
 - Developer Tools
 - Open Source
+- Machine-Learning
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
